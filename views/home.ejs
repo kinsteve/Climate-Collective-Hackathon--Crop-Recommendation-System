@@ -1,0 +1,40 @@
+<%- include("partials/header")-%>
+<center><h1 class="welcome">Namaste</h1><h1 class="welcome" style="color: white;">శుభాకాంక్షలు!</h1></center>
+<br><br>
+<form method="post" action="/">
+    <label for="">Select your District / మీ జిల్లాను ఎంచుకోండి</label>
+    <select class="form-control" id="inputDistrict" name="district" required>
+      <option value="" disabled selected>Select your option</option>
+      <option>Adilabad</option>
+      <!-- <option>Bhadradri Kothagudem</option> -->
+      <option>Hyderabad</option>
+      <option>Jagtial</option>
+      <option>Jangaon</option>
+      <!-- <option>Jayashankar</option> -->
+      <!-- <option>Jogulamba</option> -->
+      <!-- <option>Kamareddy</option> -->
+      <option>Khammam</option>
+      <!-- <option>Komaram Bheem</option> -->
+      <option>Mahabubabad</option>
+      <option>Mahbubnagar</option>
+      <option>Mancherial</option>
+      <option>Medak</option>
+      <option>Medchal</option>
+      <option>Nagarkurnool</option>
+      <option>Nalgonda</option>
+      <option>Nirmal</option>
+      <option>Nizamabad</option>
+      <option>Peddapalli</option>
+      <!-- <option>Rajanna Sircilla</option> -->
+      <!-- <option>Ranga Reddy</option> -->
+      <option>Sangareddy</option>
+      <option>Siddipet</option>
+      <option>Suryapet</option>
+      <option>Vikarabad</option>
+      <!-- <option>Wanaparthy</option> -->
+      <option>Warangal</option>
+      <!-- <option>Yadadri Bhuvanagiri</option> -->
+    </select>
+    <button type="submit" class="btn" style="float:right; margin:10px">Submit</button>
+</form>
+<%- include("partials/footer") -%>

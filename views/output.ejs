@@ -1,0 +1,17 @@
+<%- include("partials/header")-%>
+<div class="block">
+<h2>Average weather conditions of <%=district%> are </h2>
+<ul>
+    <li><p>Temperature : <%=temp-3.00%>-<%=temp+3.00%></p></li>
+    <li><p>Humidity    : <%=humidity+5%>-<%=humidity+20%></p></li>
+    <li><p>Rainfall    : <%=rainfall%>cm</p></li>
+</ul>
+<h2>Crops recommended for District <%=district%> are </h2><br>
+<ol>
+<% for(var i=0;i<ListOfCrops.length-1;i++){%>
+            <li><p><%=ListOfCrops[i]%></p></li>
+<%}%>
+</ol>
+</div>
+
+<%- include("partials/footer") -%>
