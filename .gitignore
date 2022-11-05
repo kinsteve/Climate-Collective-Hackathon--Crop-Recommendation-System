@@ -1,4 +1,4 @@
 node_modules/
 .Crop_recommendation(1).csv
 .CROP.pkl
-.Procfile
+
